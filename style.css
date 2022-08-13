@@ -1,3 +1,31 @@
 body{
   background-color: beige;
+  width:300px;
+  border: solid rgb(56, 47, 47);
+  margin: 30px 500px;
+  color: gray;
+}
+
+.displayAnswer{
+  flex-direction: column;
+  text-align: right;
+  padding: 10px 5px;
+  height: 30px;
+}
+
+.clickButton{
+  display: grid;
+  display:block;
+}
+
+.clickButton button{
+  width: 72px;
+  padding: 2px;
+  height: 38px;
+  margin: auto;
+  font: 15px bold; 
+}
+
+#ZeroButton{
+  width: 148px;
 }

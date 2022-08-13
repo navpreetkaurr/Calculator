@@ -4,11 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Adding javascript file and CSS file-->
   <script src="myCalculator.js"></script>
   <link rel="stylesheet" href="style.css">
+
   <title>Calculator</title>
 </head>
+
 <body>
-  
+<div class="Calculator">
+  <div class="displayAnswer" id="result">0</div>
+  <div class="clickButton">
+    <button  id="clearButton" onclick="clearScreen()">AC</button>
+    <button  id="ChangeSigns" onclick="changeSign()">+/-</button>
+    <button  id="PercentageButton" onclick="display('%')">%</button>
+    <button  id="operatorKey" onclick="display('÷')">÷</button>
+    <button id="numberKey" value="7" onclick="display('7')">7</button>
+    <button id="numberKey" onclick="display('8')">8</button>
+    <button id="numberKey" onclick="display('9')">9</button>
+
+    <button  id="operatorKey" onclick="display('×')">×</button>
+    <button id="numberKey" onclick="display('4')">4</button>
+    <button id="numberKey" onclick="display('5')">5</button>
+    <button id="numberKey" onclick="display('6')">6</button>
+
+    <button  id="operatorKey" onclick="display('-')">-</button>
+    <button id="numberKey" onclick="display('1')">1</button>
+    <button id="numberKey" onclick="display('2')">2</button>
+    <button id="numberKey" onclick="display('3')">3</button>
+
+    <button  id="operatorKey" onclick="display('+')">+</button>
+    <button id="ZeroButton" onclick="display('0')">0</button>
+    <button id="DecimalButton" onclick="display('.')">.</button>
+    <button id="equalToOperator" onclick="solve()">=</button>
+
+  </div>
+</div>
 </body>
 </html>
