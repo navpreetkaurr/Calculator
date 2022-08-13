@@ -1,5 +1,4 @@
 body{
-  background-color: beige;
   width:300px;
   border: solid rgb(56, 47, 47);
   margin: 30px 500px;
@@ -11,6 +10,7 @@ body{
   text-align: right;
   padding: 10px 5px;
   height: 30px;
+  width: 95%;
 }
 
 .clickButton{
