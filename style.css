@@ -1,8 +1,7 @@
 body{
   width:300px;
-  border: solid rgb(56, 47, 47);
-  margin: 30px 500px;
-  color: gray;
+  border: solid rgb(199, 186, 186);
+  margin: 50px 500px;
 }
 
 .displayAnswer{
@@ -28,4 +27,9 @@ body{
 
 #ZeroButton{
   width: 148px;
+}
+
+#operatorKey, #equalToOperator, #clearButton{
+  box-shadow: none ;
+  background-color: orange;
 }
