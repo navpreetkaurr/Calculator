@@ -20,8 +20,7 @@ function solve(){
 
 //funtion to chnage the sign but still trying to figure it out
 function changeSign(){
-  if( document.getElementById('result').value=="$-" )
-  document.getElementById('result').value+= val;
-  else 
-  document.getElementById('result').value -val;
+    let x= document.getElementById('result').value;
+    let y= x * (-1);
+    return y;
 }
